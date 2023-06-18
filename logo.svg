@@ -1,5 +1,6 @@
-<svg width='200' height='173.20508075688772' version="1.1" xmlns="http://www.w3.org/2000/svg">              
-            <polygon points='0,0 200,0 100,173.20508075688772' fill='#abc456'/>
-            <text fill='red' font-size='44' font-family='Times' x="50%" y="50%" text-anchor="middle" alignment-baseline="middle">
-    oVo</text>              
+<svg width='300' height='200' version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width='300' height='200' fill='#F9F5F6'/>              
+            <rect x="60" y="10" width='180' height='180' fill='#f6abcd'/>
+            <text fill='red' font-size='48' font-family='Arial' x="50%" y="50%" text-anchor="middle" alignment-baseline="middle">
+    Ken</text>              
         </svg>

@@ -6,21 +6,20 @@ const Text = require("./lib/text.js");
 const fs = require("fs");
 
 async function renderText() {
-  const { text, textColor, textFont, textSize } =
-    await new Query().makeTextQuery();
+  const { text, textColor, textFont } = await new Query().makeTextQuery();
 
-  return new Text(text, textColor, textFont, textSize);
+  return new Text(text, textColor, textFont);
 }
 
 async function renderShape() {
-  const { shape, shapeSize, shapeColor } = await new Query().makeShapeQuery();
+  const { shape, shapeColor } = await new Query().makeShapeQuery();
 
   if (shape === "Circle") {
-    return new Circle(shapeSize, shapeColor);
+    return new Circle(shapeColor);
   } else if (shape === "Square") {
-    return new Square(shapeSize, shapeColor);
+    return new Square(shapeColor);
   } else if (shape === "Triangle") {
-    return new Triangle(shapeSize, shapeColor);
+    return new Triangle(shapeColor);
   }
 }
 
